@@ -1,10 +1,12 @@
+FI
+
 Heikki ja Melanie Lindgrenin ääni-installaatio False Sky tarkastelee eurosentrismiä negatiivisen tilan tulkinnan kautta. 
 
 Euroopassa konstellaatioita hahmotetaan yhdistämällä kirkkaita tähtiä toisiinsa, kun taas Andien alueen taivasta luetaan toisin. Sen konstellaatiot muodostuvat Linnunradan tummista pölypilvistä. Ne muodostuvat negatiivisesta tilasta valon sijaan.
 
 Teos yhdistää reaaliaikaisen Linnunradan radioteleskooppidatan Inkojen astronomian mustiin konstellaatioihin, joiden muodot piirtyvät esiin resonoivien levyjen pinnoilla äänellisinä rakenteina.
 
-
+ENG
 
 Heikki and Melanie Lindgren's sound installation False Sky explores Eurocentrism through the interpretation of the negative space. 
 
