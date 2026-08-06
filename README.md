@@ -17,7 +17,7 @@ Installaatiossa neutraalin vedyn 1420 MHz taajuudelle viritetty radioteleskooppi
 Artistit:
 Heikki & Melanie Lindgren
 
-
+ 
 **ENG**
 
 *False Sky* sound installation explores Eurocentrism through the interpretation of the negative space. 
