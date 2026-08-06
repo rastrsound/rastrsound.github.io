@@ -9,7 +9,7 @@ Teos yhdistää reaaliaikaisen Linnunradan radioteleskooppidatan Inkojen astrono
 Artistit:
 Heikki & Melanie Lindgren
 
-
+..
 **ENG**
 
 *False Sky* sound installation explores Eurocentrism through the interpretation of the negative space. 
