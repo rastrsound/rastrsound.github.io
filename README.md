@@ -7,7 +7,7 @@ Euroopassa konstellaatioita hahmotetaan yhdistämällä kirkkaita tähtiä toisi
 Teos yhdistää reaaliaikaisen Linnunradan radioteleskooppidatan Inkojen astronomian mustiin konstellaatioihin, joiden muodot piirtyvät esiin resonoivien levyjen pinnoilla äänellisinä rakenteina.
 
 Melanien ollessa seitsemänvuotias hänen lempikirjansa oli suosittu tietosanakirja, joka käsitteli erilaisia tieteellisiä aiheita. Häntä kiehtoi eniten tähtikuvioita käsittelevä luku. Hän muistaa istuneensa usein iltaisin vanhempiensa talon pihalla Eteläisen Perun tähtitaivaan alla pienellä punaisella puujakkarallaan ja etsineensä turhaan kirjassa esitettyjä tähtikuvioita Isoa Karhua, Pientä Karhua, Kassiopeiaa ja Pohjantähteä. Sen sijaan Etelän risti, jonka hänen isoisänsä oli näyttänyt hänelle taivaalta, ei löytynyt kirjasta lainkaan.
-
+ 
 Vasta ensimmäisellä talvisella matkallaan Suomeen hän tunnisti kaikki kirjan sivuilla kuvatut tähtikuviot. Yksi merkittävä piirre oli kuitenkin selvästi nähtävissä sekä hänen lapsuutensa yötaivaalla että pohjoisen pimeydessä, Linnunradan himmeästi kaartuva vana taivaan poikki.
 
 Andien tähtitaivaalla näkyy kuitenkin toinen osa Linnunradan tasosta. Sitä vasten voi selkeästi erottaa valtavia tummia kosmisen pölyn alueita, jotka muodostavat kuvioita joita inkat hahmottivat "mustina konstellaatioina". Mustat konstellaatiot olivat inkojen maailmankuvassa tärkeimpiä tähtitaivaan kuvioita. 
