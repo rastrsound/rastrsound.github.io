@@ -35,3 +35,5 @@ In the installation, a radio telescope tuned to the neutral hydrogen frequency o
 
 Artists:
 Heikki & Melanie Lindgren
+
+images/eso0932a.jpg
