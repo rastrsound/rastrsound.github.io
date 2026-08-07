@@ -37,3 +37,4 @@ Artists:
 Heikki & Melanie Lindgren
 
 ![Milky Way](images/eso0932a.jpg)
+Credit: ESO/S. Brunier
