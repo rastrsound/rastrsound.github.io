@@ -36,12 +36,17 @@ Heikki & Melanie Lindgren
 Credit: ESO/S. Brunier
 <br>
 <br>
-Tässä installaatiossa käytetty radioteleskooppi ja signaaliketju ovat taiteilijoiden rakentamia.
 <br>
-Erityiskiitokset Juha Liljalle (Stealthcase) kokeellisen komposiittiantennin suunnittelusta ja rakentamisesta.
+Erityiskiitokset: 
+Juha Lilja (Stealthcase), kokeellisen komposiittiantennin suunnittelu ja rakentaminen
+Joni Tammi, Aalto yliopisto, MRO, astronomiaan liittyvät neuvot
+Vesa Turunen, siirrettävän audiovahvistimen suunnittelu
 <br>
 <br>
 
-The radio telescope and signal chain used in this installation were built by the artists.
 <br>
-Special thanks to Juha Lilja (Stealthcase) for the design and construction of the experimental composite antenna.
+Special thanks:
+Juha Lilja (Stealthcase), the design and construction of the experimental composite antenna
+Joni Tammi (Aalto University, Metsähovi Radio Observatory), for advice on astronomy
+Vesa Turunen, portable audio amplifier design
+<br>
