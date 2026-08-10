@@ -42,9 +42,7 @@ Juha Lilja (Stealthcase), kokeellisen komposiittiantennin suunnittelu ja rakenta
 Joni Tammi, Aalto yliopisto, MRO, astronomiaan liittyvät neuvot  
 Vesa Turunen, siirrettävän audiovahvistimen suunnittelu  
 <br>
-<br>
 
-<br>
 Special thanks:  
 Juha Lilja (Stealthcase), the design and construction of the experimental composite antenna  
 Joni Tammi (Aalto University, Metsähovi Radio Observatory), for advice on astronomy  
