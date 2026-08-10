@@ -34,3 +34,15 @@ Heikki & Melanie Lindgren
 
 ![Milky Way](images/eso0932a.jpg)
 Credit: ESO/S. Brunier
+<br>
+<br>
+Tässä installaatiossa käytetty radioteleskooppi ja signaaliketju ovat taiteilijoiden rakentamia.
+<br>
+
+Erityiskiitokset Juha Liljalle (StealthCase) kokeellisen komposiittiantennin suunnittelusta ja rakentamisesta.
+<br><br>
+<br>
+
+The radio telescope and signal chain used in this installation were built by the artists.
+<br>
+Special thanks to Juha Lilja (StealthCase) for the design and construction of the experimental composite antenna.
