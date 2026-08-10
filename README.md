@@ -37,16 +37,16 @@ Credit: ESO/S. Brunier
 <br>
 <br>
 <br>
-Erityiskiitokset: 
-Juha Lilja (Stealthcase), kokeellisen komposiittiantennin suunnittelu ja rakentaminen
-Joni Tammi, Aalto yliopisto, MRO, astronomiaan liittyvät neuvot
-Vesa Turunen, siirrettävän audiovahvistimen suunnittelu
+Erityiskiitokset:  
+Juha Lilja (Stealthcase), kokeellisen komposiittiantennin suunnittelu ja rakentaminen  
+Joni Tammi, Aalto yliopisto, MRO, astronomiaan liittyvät neuvot  
+Vesa Turunen, siirrettävän audiovahvistimen suunnittelu  
 <br>
 <br>
 
 <br>
-Special thanks:
-Juha Lilja (Stealthcase), the design and construction of the experimental composite antenna
-Joni Tammi (Aalto University, Metsähovi Radio Observatory), for advice on astronomy
-Vesa Turunen, portable audio amplifier design
+Special thanks:  
+Juha Lilja (Stealthcase), the design and construction of the experimental composite antenna  
+Joni Tammi (Aalto University, Metsähovi Radio Observatory), for advice on astronomy  
+Vesa Turunen, portable audio amplifier design  
 <br>
