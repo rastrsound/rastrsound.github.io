@@ -39,7 +39,7 @@ Credit: ESO/S. Brunier
 Tässä installaatiossa käytetty radioteleskooppi ja signaaliketju ovat taiteilijoiden rakentamia.
 <br>
 Erityiskiitokset Juha Liljalle (StealthCase) kokeellisen komposiittiantennin suunnittelusta ja rakentamisesta.
-<br><br>
+<br>
 <br>
 
 The radio telescope and signal chain used in this installation were built by the artists.
