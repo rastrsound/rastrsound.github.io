@@ -176,6 +176,13 @@ button {
   outline-offset: 4px;
 }
 
+@media (hover: hover) {
+  .onboarding button:hover {
+    background: transparent;
+    color: var(--foreground);
+  }
+}
+
 .onboarding__technical {
   margin: 14px 0 0;
   font-size: 9px !important;

@@ -29,14 +29,21 @@ export class Interface {
   }
 
   onStart(handler) {
-    this.startButton.addEventListener("click", () => {
+    let activated = false;
+    const activate = () => {
+      if (activated) {
+        return;
+      }
+      activated = true;
       this.onboardingElement.hidden = true;
       try {
         handler();
       } catch {
         this.notify("Instrumenttia ei voitu käynnistää.");
       }
-    });
+    };
+    this.startButton.addEventListener("pointerdown", activate);
+    this.startButton.addEventListener("click", activate);
   }
 
   fail(message) {

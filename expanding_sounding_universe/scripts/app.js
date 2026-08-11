@@ -7,7 +7,7 @@ import { DeviceOrientationController } from "./orientation/device-orientation.js
 import { PointerOrientation } from "./orientation/pointer-orientation.js";
 import { SkyRenderer } from "./rendering/sky-renderer.js";
 import { Clock } from "./simulation/clock.js";
-import { Interface } from "./ui/interface.js";
+import { Interface } from "./ui/interface.js?v=20260811-1";
 
 const positionUpdateInterval = 1000;
 const audioUpdateInterval = 50;
