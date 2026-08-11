@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#050708">
+    <meta name="description" content="Taivaankohteiden suuntiin perustuva auditiivinen havaintoinstrumentti.">
+    <meta name="referrer" content="no-referrer">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self';
+        style-src 'self';
+        media-src 'self';
+        img-src 'self';
+        connect-src 'self';
+        object-src 'none';
+        base-uri 'none';
+        form-action 'none'
+      "
+    >
+    <title>Expanding Sonic Universe</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="instrument">
+      <canvas class="sky" aria-label="Taivaankannen kohdenäkymä">
+        Taivaankannen visualisointi vaatii Canvas-tuen.
+      </canvas>
+      <section class="status">
+        <span data-time></span>
+        <span data-direction></span>
+      </section>
+      <section class="target" data-target hidden>
+        <span class="target__name" data-target-name></span>
+        <span class="target__coordinates" data-target-coordinates></span>
+      </section>
+      <section class="notice" data-notice role="status" hidden></section>
+      <dialog class="onboarding" data-onboarding aria-labelledby="onboarding-title">
+        <div class="onboarding__panel">
+          <p class="onboarding__label">EXPANDING SONIC UNIVERSE</p>
+          <h1 id="onboarding-title">Kuuntele suuntaamalla</h1>
+          <p>Suuntaa laitetta ympärillesi. Kohteen ääni voimistuu tähtäimen lähestyessä sitä.</p>
+          <p>Voit myös liikuttaa näkymää vetämällä.</p>
+          <button type="button" data-start>AKTIVOI INSTRUMENTTI</button>
+          <p class="onboarding__technical">Äänen ja liikesensorien käyttö käynnistyy painikkeesta.</p>
+        </div>
+      </dialog>
+    </main>
+    <script type="module" src="./scripts/app.js"></script>
+  </body>
+</html>

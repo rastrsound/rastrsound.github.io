@@ -1,0 +1,192 @@
+:root {
+  --background: #050708;
+  --background-rgb: 5 7 8;
+  --foreground: #eef3f3;
+  --foreground-rgb: 238 243 243;
+  color-scheme: dark;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  background: var(--background);
+  color: var(--foreground);
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: var(--background);
+}
+
+button {
+  font: inherit;
+}
+
+.instrument {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100dvh;
+  overflow: hidden;
+  background: radial-gradient(circle at center, #11191b 0%, var(--background) 72%);
+  touch-action: none;
+  user-select: none;
+}
+
+.sky {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.status {
+  position: absolute;
+  top: max(18px, env(safe-area-inset-top));
+  right: max(18px, env(safe-area-inset-right));
+  left: max(18px, env(safe-area-inset-left));
+  display: flex;
+  justify-content: space-between;
+  color: rgb(var(--foreground-rgb) / 0.58);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  pointer-events: none;
+}
+
+.target {
+  position: absolute;
+  bottom: max(28px, calc(env(safe-area-inset-bottom) + 18px));
+  left: 50%;
+  display: grid;
+  gap: 6px;
+  min-width: 190px;
+  padding: 12px 16px;
+  border: 1px solid rgb(var(--foreground-rgb) / 0.26);
+  background: rgb(var(--background-rgb) / 0.74);
+  text-align: center;
+  transform: translateX(-50%);
+  pointer-events: none;
+  backdrop-filter: blur(8px);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 260ms ease, visibility 260ms;
+}
+
+.target[hidden] {
+  display: grid;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.target__name {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+}
+
+.target__coordinates {
+  color: rgb(var(--foreground-rgb) / 0.55);
+  font-size: 9px;
+  letter-spacing: 0.06em;
+}
+
+.notice {
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  max-width: min(420px, calc(100% - 36px));
+  padding: 9px 12px;
+  border: 1px solid rgb(var(--foreground-rgb) / 0.2);
+  background: rgb(var(--background-rgb) / 0.78);
+  color: rgb(var(--foreground-rgb) / 0.72);
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.onboarding {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  padding: 24px;
+  border: 0;
+  background: rgb(var(--background-rgb) / 0.94);
+}
+
+.onboarding::backdrop {
+  background: var(--background);
+}
+
+.onboarding:not([open]) {
+  display: none;
+}
+
+.onboarding__panel {
+  width: min(440px, 100%);
+  padding: clamp(24px, 6vw, 42px);
+  border: 1px solid rgb(var(--foreground-rgb) / 0.26);
+}
+
+.onboarding__label {
+  margin: 0 0 30px;
+  color: rgb(var(--foreground-rgb) / 0.5);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+}
+
+.onboarding h1 {
+  margin: 0 0 22px;
+  font-size: clamp(22px, 6vw, 34px);
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+
+.onboarding p {
+  color: rgb(var(--foreground-rgb) / 0.68);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.onboarding button {
+  width: 100%;
+  margin-top: 24px;
+  padding: 14px 18px;
+  border: 1px solid var(--foreground);
+  border-radius: 0;
+  background: var(--foreground);
+  color: var(--background);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.onboarding button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+.onboarding button:focus-visible {
+  outline: 2px solid var(--foreground);
+  outline-offset: 4px;
+}
+
+.onboarding__technical {
+  margin: 14px 0 0;
+  font-size: 9px !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .target {
+    transition-duration: 0ms;
+  }
+}
