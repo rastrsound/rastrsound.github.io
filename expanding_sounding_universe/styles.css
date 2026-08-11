@@ -123,11 +123,7 @@ button {
   background: rgb(var(--background-rgb) / 0.94);
 }
 
-.onboarding::backdrop {
-  background: var(--background);
-}
-
-.onboarding:not([open]) {
+.onboarding[hidden] {
   display: none;
 }
 

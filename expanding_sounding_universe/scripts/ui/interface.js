@@ -26,17 +26,15 @@ export class Interface {
       minute: "2-digit",
       second: "2-digit"
     });
-    this.onboardingElement.showModal();
   }
 
   onStart(handler) {
-    this.startButton.addEventListener("click", async () => {
-      this.startButton.disabled = true;
-      this.onboardingElement.close();
+    this.startButton.addEventListener("click", () => {
+      this.onboardingElement.hidden = true;
       try {
-        await handler();
-      } finally {
-        this.startButton.disabled = false;
+        handler();
+      } catch {
+        this.notify("Instrumenttia ei voitu käynnistää.");
       }
     });
   }
