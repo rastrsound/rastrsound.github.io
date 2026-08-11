@@ -32,10 +32,10 @@ export class Interface {
   onStart(handler) {
     this.startButton.addEventListener("click", async () => {
       this.startButton.disabled = true;
+      this.onboardingElement.close();
       try {
         await handler();
       } finally {
-        this.onboardingElement.close();
         this.startButton.disabled = false;
       }
     });

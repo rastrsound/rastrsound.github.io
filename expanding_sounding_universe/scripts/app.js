@@ -111,18 +111,17 @@ const startApplication = sources => {
     window.requestAnimationFrame(animate);
   };
 
-  interfaceController.onStart(async () => {
-    const [audioResult, orientationResult] = await Promise.allSettled([
-      audio.start(),
-      orientation.enable()
-    ]);
-
-    if (audioResult.status === "rejected") {
+  interfaceController.onStart(() => {
+    audio.start().catch(() => {
       interfaceController.notify("Ääntä ei voitu käynnistää. Tarkista selaimen ääniasetukset.");
-    }
-    if (orientationResult.status === "rejected" || orientationResult.value === false) {
+    });
+    orientation.enable().then(enabled => {
+      if (!enabled) {
+        interfaceController.notify("Liikesensori ei ole käytettävissä. Liikuta näkymää vetämällä.");
+      }
+    }).catch(() => {
       interfaceController.notify("Liikesensori ei ole käytettävissä. Liikuta näkymää vetämällä.");
-    }
+    });
   });
 
   window.requestAnimationFrame(animate);
