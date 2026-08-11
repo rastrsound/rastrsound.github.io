@@ -42,7 +42,11 @@ export class Interface {
         this.notify("Instrumenttia ei voitu käynnistää.");
       }
     };
-    this.startButton.addEventListener("pointerdown", activate);
+    this.startButton.addEventListener("pointerdown", event => {
+      if (event.pointerType === "mouse") {
+        activate();
+      }
+    });
     this.startButton.addEventListener("click", activate);
   }
 
