@@ -3,7 +3,7 @@ import { equatorialToHorizontal, horizontalVector } from "./astronomy/coordinate
 import { AudioEngine } from "./audio/audio-engine.js";
 import { presentation } from "./config/presentation.js";
 import { loadSources } from "./config/source-loader.js";
-import { DeviceOrientationController } from "./orientation/device-orientation.js";
+import { DeviceOrientationController } from "./orientation/device-orientation.js?v=20260813-1";
 import { PointerOrientation } from "./orientation/pointer-orientation.js";
 import { SkyRenderer } from "./rendering/sky-renderer.js";
 import { Clock } from "./simulation/clock.js";
