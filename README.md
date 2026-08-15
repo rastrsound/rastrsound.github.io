@@ -31,9 +31,8 @@ In the installation, a radio telescope tuned to the neutral hydrogen line at 142
 
 Artists:
 Heikki & Melanie Lindgren
-
-![Milky Way](images/eso0932a.jpg)
-Credit: ESO/S. Brunier
+![Dark Constellations](images/ggdgg.webp)
+@welcometoayacucho
 <br>
 <br>
 <br>
