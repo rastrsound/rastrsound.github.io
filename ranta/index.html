@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <style>
     body {
       margin: 0;
@@ -14,14 +14,7 @@
       background: #000;
       color: #fff;
       font-family: Arial, sans-serif;
-  .credit {
-  font-size: 8px;
-  font-style: italic;
-  opacity: 0.65;
-  margin: 0;
-}
     }
-    
 
     main {
       width: 90%;
@@ -29,30 +22,53 @@
       text-align: center;
     }
 
+    h1 {
+      font-size: 38px;
+      margin: 0 0 24px 0;
+    }
+
+    .info {
+      margin-bottom: 35px;
+    }
+
+    .description {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0 0 8px 0;
+    }
+
+    .credit {
+      font-size: 8px;
+      font-style: italic;
+      opacity: 0.65;
+      margin: 0;
+    }
+
     audio {
+      display: block;
       width: 100%;
-      margin-top: 30px;
+      max-width: 500px;
+      margin: 0 auto;
     }
   </style>
 </head>
 
 <body>
 
-<main>
-  <h1>Rannan ääniä</h1>
+  <main>
+    <h1>Rannan ääniä</h1>
 
-  <div class="info">
-    <p class="description">
-      Äänitetty Liuskasaaressa Helsingissä heinäkuussa 2022
-    </p>
+    <div class="info">
+      <p class="description">
+        Äänitetty Liuskasaaressa Helsingissä heinäkuussa 2022
+      </p>
 
-    <p class="credit">
-      Äänitys: Heikki Lindgren
-    </p>
-  </div>
+      <p class="credit">
+        Äänitys: Heikki Lindgren
+      </p>
+    </div>
 
-</main>
-    <audio controls loop src="Ranta.mp3">
+    Ranta.mp3
       Your browser does not support audio playback.
     </audio>
   </main>
